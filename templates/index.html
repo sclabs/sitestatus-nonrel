@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block title %}{{ sitetitle }}{% endblock %}
+{% block content %}
+<h1>{{ sitetitle }}</h1>
+<table>
+  <tr class="header">
+    <td>service</td>
+    <td>url</td>
+    <td>status</td>
+    <td>comment</td>
+  </tr>
+  {% for site in statuses %}
+  <tr>
+    <td>{{ site.description }}</td>
+    <td><a href ="{{ site.link_url }}">{{ site.link_text }}</a></td>
+    <td class="{{ site.status }}">{{ site.status }}</td>
+    <td>{{ site.comment }}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% endblock %}
