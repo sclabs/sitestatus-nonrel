@@ -65,7 +65,7 @@ The templates directory contains a bare-bones example template (`index.html`) th
 
 ### Need Help?
 
-For more information visit <http://sitestatus.gilgi.org>. Direct all questions, comments, and bug reports to <sclabs@gilgi.org>.
+For more information visit <http://sclabs.gilgi.org/sitestatus/>. Direct all questions, comments, and bug reports to <sclabs@gilgi.org>.
 
 License Information
 -------------------
