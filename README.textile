@@ -1,10 +1,10 @@
 h1. sitestatus-nonrel
 
-_A port of "Simple-Comic-CMS":https://github.com/sclabs/sccms to django-nonrel and django-filetransfers for Google App Engine deployment._
+_Improved status page app built on django-nonrel for easy deployment to the Google App Engine._
 
 h2. Introduction
 
-If you're looking for an easy way to deploy Simple-Comic-CMS to the Google App Engine, you've come to the right place. With sccms-nonrel, you can have your own webcomic up and running in no time!
+sitestatus-nonrel is an easy-to-use web application that creates a dynamic, self-updating status page for your domain or any arbitrary collection of sites you might want to track the status of.
 
 h2. Prerequisites
 
